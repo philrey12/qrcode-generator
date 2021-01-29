@@ -48,6 +48,10 @@ body {
 }
 .qr-img {
     margin-top: 10px;
+    width: 100%;
+    height: 160px;
+    background: url('https://via.placeholder.com/200');
+    background-position: center;
 }
 .qr-img img {
     width: 100%;
