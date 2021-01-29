@@ -32,10 +32,19 @@ body {
 .form .form-element button {
     width: 100%;
     height: 40px;
-    background: #111;
+    background: #003448;
     color: #eee;
     font-size: 14px;
     border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.form .form-element button:hover {
+    background: #19485a;
+}
+.form .form-element button:active {
+    background: #003448;
 }
 .qr-img {
     margin-top: 10px;
